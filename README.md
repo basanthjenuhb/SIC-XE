@@ -11,6 +11,7 @@ In pass2, we read the in the intermediate code and refer to symbolic addresses f
 Pass1 is written in p1.l and p1.y which corresponds to lex and yacc respectively.
 Pass2 is written in p2.l and p2.y which corresponds to lex and yacc respectively.
 ##
+```
 To run:
 	$ sh pass1.sh
 	$ sh pass1.sh
