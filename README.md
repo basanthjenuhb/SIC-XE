@@ -6,6 +6,7 @@ It is a simple assemble with 4 different formats in its source code. The task is
 This happens in 2 passes.
 ##
 In pass1, we read the source code, do general syntax checking, and generate the symbol table which is stored in symbol.txt and generate an intermediate code stored in INTERMEDIATE.txt.
+
 In pass2, we read the in the intermediate code and refer to symbolic addresses from the symbol table and generate the object code for the corresponding format.
 ##
 Pass1 is written in p1.l and p1.y which corresponds to lex and yacc respectively.
